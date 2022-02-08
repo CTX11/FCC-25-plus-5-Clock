@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34282c;
+  color: #e8a317;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  margin: -50px 20px 50px;
+}
+
+.timer-container h1 {
+  margin: 1;
+}
+
+button {
+  background-color: black;
+  padding: 10px;
+  margin: 15px;
+  color: #e8a317;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.action span {
+  font-size: 50px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  text-align: center;
+  border: 5px solid;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.clock-container h1 {
+  margin: 1;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
+
+button:hover {
+  color: white;
+}
